@@ -1,0 +1,4 @@
+.DS_Store
+.venv/
+.pdf_inspect/
+__pycache__/
