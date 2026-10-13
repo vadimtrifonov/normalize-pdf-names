@@ -1,0 +1,14 @@
+[tools]
+python = "3.15"
+
+[env]
+_.python.venv = { path = ".venv", create = true, uv_create_args = ["--seed"] }
+
+[deps.pip]
+auto = true
+
+[tasks.inspect]
+run = "python scripts/inspect_pdf.py"
+
+[tasks.rename]
+run = "python scripts/rename_pdf.py"

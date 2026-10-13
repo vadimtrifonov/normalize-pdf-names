@@ -1,6 +1,0 @@
-interface:
-  display_name: "Normalize PDF Names"
-  short_description: "Rename PDFs using the work’s author, year, and title"
-  default_prompt: "Use $normalize_pdf_names to normalize PDF filenames."
-policy:
-  allow_implicit_invocation: true
